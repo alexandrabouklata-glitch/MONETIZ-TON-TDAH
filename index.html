@@ -1,3 +1,16 @@
+Pas de problème. Je vais te donner le contenu directement à copier-coller dans GitHub.Voilà. **Copie tout le texte ci-dessous** et colle-le dans GitHub à la place de l'ancien code.
+
+**Sur GitHub :**
+1. Va sur ton repo → clique sur `index.html` → clique sur le **crayon** ✏️
+2. **Ctrl+A** pour tout sélectionner → **Suppr**
+3. Colle le code ci-dessous
+4. Clique **"Commit changes"**
+
+---
+
+Clique sur le bouton **"Copy"** en haut à droite du bloc de code ci-dessous :
+
+```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,30 +19,25 @@
 <title>Monetiz ton TDAH — Agent Vente</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%;background:#0d0d0d;font-family:'Segoe UI',Arial,sans-serif;color:#fff}
-.app{display:flex;flex-direction:column;height:100vh;max-width:520px;margin:0 auto}
+html,body{background:#0d0d0d;font-family:'Segoe UI',Arial,sans-serif;color:#fff}
+.app{display:flex;flex-direction:column;height:100svh;max-width:520px;margin:0 auto}
 .top{padding:.875rem 1rem;border-bottom:1px solid #1e1e1e;display:flex;align-items:center;gap:10px;background:#0d0d0d;flex-shrink:0}
 .logo{background:#e8196b;color:#fff;font-size:10px;font-weight:800;letter-spacing:.1em;padding:3px 9px;border-radius:4px;line-height:1.6;flex-shrink:0}
 .logo b{font-size:16px;font-weight:900;display:block}
-.ttl{font-size:14px;font-weight:600}
-.sub{font-size:11px;color:#666}
-.green{width:8px;height:8px;border-radius:50%;background:#4ade80;margin-left:auto;flex-shrink:0}
-.msgs{flex:1;overflow-y:auto;padding:1rem;display:flex;flex-direction:column;gap:.75rem}
-.msgs::-webkit-scrollbar{width:3px}
-.msgs::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:2px}
+.ttl{font-size:14px;font-weight:600}.sub{font-size:11px;color:#666}
+.dot{width:8px;height:8px;border-radius:50%;background:#4ade80;margin-left:auto;flex-shrink:0}
+.msgs{flex:1;overflow-y:auto;padding:1rem;display:flex;flex-direction:column;gap:.75rem;min-height:0}
 .bbl{max-width:85%;padding:.75rem 1rem;border-radius:16px;font-size:13px;line-height:1.6}
-.bbl.b{background:#1a1a1a;border:1px solid #252525;color:#ddd;border-bottom-left-radius:4px;align-self:flex-start}
-.bbl.u{background:#e8196b;color:#fff;border-bottom-right-radius:4px;align-self:flex-end}
-.bbl.b strong{color:#fff}
-.bbl.b .hl{color:#e8196b;font-weight:600}
-.bbl.b a{color:#e8196b}
-.dots-wrap{align-self:flex-start}
-.dots{background:#1a1a1a;border:1px solid #252525;border-radius:16px;border-bottom-left-radius:4px;padding:.75rem 1rem;display:flex;gap:5px}
-.dot{width:7px;height:7px;border-radius:50%;background:#444;animation:dk 1.2s ease-in-out infinite}
-.dot:nth-child(2){animation-delay:.2s}.dot:nth-child(3){animation-delay:.4s}
+.b{background:#1a1a1a;border:1px solid #252525;color:#ddd;border-bottom-left-radius:4px;align-self:flex-start}
+.u{background:#e8196b;color:#fff;border-bottom-right-radius:4px;align-self:flex-end}
+.b strong{color:#fff}.b .hl{color:#e8196b;font-weight:600}.b a{color:#e8196b}
+.dw{align-self:flex-start}
+.di{background:#1a1a1a;border:1px solid #252525;border-radius:16px;border-bottom-left-radius:4px;padding:.75rem 1rem;display:flex;gap:5px}
+.dd{width:7px;height:7px;border-radius:50%;background:#444;animation:dk 1.2s ease-in-out infinite}
+.dd:nth-child(2){animation-delay:.2s}.dd:nth-child(3){animation-delay:.4s}
 @keyframes dk{0%,100%{background:#333;transform:scale(.8)}50%{background:#e8196b;transform:scale(1)}}
 .btns{display:flex;flex-direction:column;gap:.5rem;align-self:flex-start;max-width:90%}
-.btn{background:#1a1a1a;border:1px solid #2a2a2a;color:#ccc;padding:.625rem 1rem;border-radius:10px;font-size:13px;cursor:pointer;text-align:left;transition:border-color .15s,color .15s,background .15s}
+.btn{background:#1a1a1a;border:1px solid #2a2a2a;color:#ccc;padding:.625rem 1rem;border-radius:10px;font-size:13px;cursor:pointer;text-align:left;transition:all .15s}
 .btn:hover{border-color:#e8196b;color:#fff;background:#1a0810}
 .btn.done{background:#1a0810;border-color:#e8196b;color:#e8196b;pointer-events:none}
 .ibar{padding:.75rem 1rem;border-top:1px solid #1e1e1e;background:#0d0d0d;flex-shrink:0}
@@ -37,10 +45,7 @@ html,body{height:100%;background:#0d0d0d;font-family:'Segoe UI',Arial,sans-serif
 .irow input{flex:1;background:#1a1a1a;border:1px solid #2a2a2a;border-radius:10px;padding:.625rem .875rem;color:#fff;font-size:13px;outline:none}
 .irow input:focus{border-color:#e8196b}
 .irow input::placeholder{color:#444}
-.go{background:#e8196b;border:none;color:#fff;width:36px;height:36px;border-radius:9px;cursor:pointer;font-size:16px;flex-shrink:0;transition:background .15s}
-.go:hover{background:#c4155a}
-
-/* FICHE */
+.go{background:#e8196b;border:none;color:#fff;width:36px;height:36px;border-radius:9px;cursor:pointer;font-size:16px;flex-shrink:0}
 .fiche{width:100%;border-radius:14px;overflow:hidden;border:1px solid #252525}
 .fh{background:#e8196b;padding:1rem 1.1rem}
 .fh-t{font-size:15px;font-weight:700;color:#fff}
@@ -62,7 +67,7 @@ html,body{height:100%;background:#0d0d0d;font-family:'Segoe UI',Arial,sans-serif
   <div class="top">
     <div class="logo">Monetiz ton<b>TDAH</b></div>
     <div><div class="ttl">Agent Vente</div><div class="sub">Trouve comment vendre sans t'épuiser</div></div>
-    <div class="green"></div>
+    <div class="dot"></div>
   </div>
   <div class="msgs" id="msgs"></div>
   <div class="ibar" id="ibar" style="display:none">
@@ -73,218 +78,39 @@ html,body{height:100%;background:#0d0d0d;font-family:'Segoe UI',Arial,sans-serif
   </div>
 </div>
 <script>
-// ── CORE ──
-const msgs = document.getElementById('msgs');
-const ibar = document.getElementById('ibar');
-const inp  = document.getElementById('inp');
-const gobtn= document.getElementById('gobtn');
-let S={}, cb=null;
-
-function scroll(){ msgs.scrollTop = msgs.scrollHeight; }
-
-function bubble(html, side){
-  const d=document.createElement('div');
-  d.className='bbl '+side;
-  d.innerHTML=html;
-  msgs.appendChild(d);
-  scroll();
-}
-
-function showDots(){
-  const w=document.createElement('div');
-  w.id='dots'; w.className='dots-wrap';
-  w.innerHTML='<div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>';
-  msgs.appendChild(w); scroll();
-}
-function hideDots(){ const d=document.getElementById('dots'); if(d) d.remove(); }
-
-// Affiche un message bot après délai
-function botMsg(html, delay){
-  return new Promise(res=>{
-    showDots();
-    setTimeout(()=>{
-      hideDots();
-      bubble(html,'b');
-      res();
-    }, delay||900);
-  });
-}
-
-// Affiche des boutons et attend le choix
-function showBtns(list){
-  return new Promise(res=>{
-    const wrap=document.createElement('div');
-    wrap.className='btns';
-    list.forEach(txt=>{
-      const b=document.createElement('button');
-      b.className='btn'; b.textContent=txt;
-      b.onclick=()=>{
-        wrap.querySelectorAll('.btn').forEach(x=>x.classList.add('done'));
-        b.classList.add('done');
-        bubble(txt,'u');
-        setTimeout(()=>{ wrap.remove(); res(txt); },250);
-      };
-      wrap.appendChild(b);
-    });
-    msgs.appendChild(wrap); scroll();
-  });
-}
-
-// Affiche input texte et attend la réponse
-function showInput(ph){
-  return new Promise(res=>{
-    ibar.style.display='block';
-    inp.placeholder=ph||'Écris ta réponse...';
-    inp.value=''; inp.focus();
-    function done(){
-      const v=inp.value.trim(); if(!v) return;
-      ibar.style.display='none';
-      bubble(v,'u');
-      gobtn.onclick=null; inp.onkeydown=null;
-      setTimeout(()=>res(v),250);
-    }
-    gobtn.onclick=done;
-    inp.onkeydown=e=>{ if(e.key==='Enter') done(); };
-  });
-}
-
-// ── DONNÉES ──
-const TYPES={'Générateur':'gen','Générateur Manifestant':'genman','Projecteur':'proj','Manifesteur':'man','Réflecteur':'ref','Je ne sais pas encore':'gen'};
-
-const VENTE={
-  gen:{
-    force:'Énergie contagieuse — quand tu parles de ce qui t\'allume, les gens veulent en faire partie.',
-    frein:'Tu dis oui à tout et tu t\'épuises. Chaque OUI non-aligné vide ton énergie.',
-    comment:'Crée du contenu qui répond aux vraies questions de ton audience. Les gens viendront à toi.',
-    prospect:'Pas de prospection froide. Ton contenu authentique suffit.'
-  },
-  genman:{
-    force:'Tu peux initier ET soutenir. Ton énergie de lancement est rare et contagieuse.',
-    frein:'Tu disperses — 5 projets à 20% ne valent jamais 1 projet à 100%.',
-    comment:'Lance par sprints, livre, récupère. Une seule direction à la fois.',
-    prospect:'Tu peux approcher des gens, mais vérifie que c\'est un vrai OUI intérieur avant.'
-  },
-  proj:{
-    force:'Tu lis une situation en quelques minutes. Ce diagnostic rapide est ta vraie valeur.',
-    frein:'Tu t\'épuises à aller vers des gens qui ne t\'ont pas invitée.',
-    comment:'Construis ta réputation par le contenu. Attends d\'être reconnue avant de proposer.',
-    prospect:'Pas de prospection froide. Partenariats et bouche-à-oreille uniquement.'
-  },
-  man:{
-    force:'Vision pionnière — tu vois les opportunités avant tout le monde.',
-    frein:'Tu disparais sans prévenir et les gens se sentent perdus.',
-    comment:'Informe avant d\'agir. Pas besoin de permission — juste communique.',
-    prospect:'Tu peux initier le contact. Informe toujours avant de proposer.'
-  },
-  ref:{
-    force:'Radar exceptionnel — tu sens exactement ce dont les gens ont besoin.',
-    frein:'Tu absorbes l\'énergie des autres. Un mauvais entourage te vide rapidement.',
-    comment:'Prends le temps qu\'il te faut. Jamais de décision sous pression extérieure.',
-    prospect:'Pas de prospection froide. Communautés bienveillantes uniquement.'
-  }
-};
-
-const PLAT={
-  gen:{nom:'Instagram',rythme:'3 posts / semaine',format:'Reels face caméra 30-60 sec + stories',why:'Ton énergie passe à l\'écran. Les reels courts et authentiques attirent naturellement — et Instagram les pousse aux non-abonnés.'},
-  genman:{nom:'Instagram',rythme:'3-4 posts / semaine par sprints',format:'Reels de lancement + carrousels',why:'Instagram te permet de lancer fort puis de souffler. Le reel colle à ton énergie de démarrage.'},
-  proj:{nom:'Instagram',rythme:'2 posts / semaine maximum',format:'Posts de fond + newsletter hebdo',why:'Tu n\'as pas besoin de volume. 2 posts forts et profonds par semaine valent mieux que 5 posts moyens.'},
-  man:{nom:'Instagram',rythme:'1-2 posts / semaine',format:'Prises de position fortes + vidéos',why:'Tu postes moins souvent mais avec plus d\'impact. Tes contenus directs et forts font le travail sur la durée.'},
-  ref:{nom:'Newsletter + Instagram',rythme:'1 post + 1 email / semaine',format:'Questions ouvertes + réflexions profondes',why:'La newsletter est ton meilleur outil — ton audience te lit dans le calme, sans pression d\'algorithme.'}
-};
-
-const ACTIONS={
-  gen:'Tourne un reel de 45 secondes où tu réponds à UNE vraie question que tu entends souvent. Pas de script — juste toi, naturelle. Poste-le cette semaine.',
-  genman:'Écris en 3 phrases l\'offre que tu veux lancer. Envoie-la à une personne de confiance pour un retour — une seule, pas dix.',
-  proj:'Écris un post court sur un moment où tu as vu quelque chose que les autres n\'avaient pas vu. Termine par une question. Zéro vente.',
-  man:'Écris une prise de position courte sur ton sujet — ce que tu crois vraiment, même si ça dérange. Poste-la.',
-  ref:'Pose une question profonde à ton audience sur ton sujet. Écoute ce que les gens répondent. C\'est ton meilleur contenu.'
-};
-
-function getNiche(passion, audience){
-  const m={'Des femmes qui veulent changer de vie':'femmes qui veulent changer de vie','Des entrepreneures / créatrices':'entrepreneures','Des mamans / familles':'mamans','Des personnes en recherche de santé':'personnes en quête de bien-être','Je ne sais pas encore':'personnes motivées'};
-  return passion+' pour les '+(m[audience]||'personnes motivées');
-}
-function getAngle(exp){
-  if(exp.startsWith('Oui')) return 'Ton vécu personnel est ton plus grand atout. Parle depuis ton expérience — pas depuis une formation.';
-  if(exp.startsWith('Un peu')) return 'Ton intérêt profond se voit. Partage ce que tu apprends en temps réel — c\'est très engageant.';
-  return 'Ta compétence acquise est solide. Montre les résultats concrets que tu as obtenus ou aidés à obtenir.';
-}
-
-// ── CONVERSATION ──
-async function start(){
-  await botMsg("Bonjour 👋 Je suis l'agent de Monetiz ton TDAH.<br><br>Je vais t'aider à trouver <strong>comment vendre sans t'épuiser</strong>, selon ton énergie naturelle.<br><br>Dis-moi ton prénom pour commencer.", 1200);
-  S.prenom = await showInput('Ton prénom...');
-
-  await botMsg('Bonjour <strong class="hl">'+S.prenom+'</strong> ! 🧭<br><br>Quel est ton <strong>type Human Design</strong> ?<br><small style="color:#666">(Gratuit sur <a href="https://designhumainfrance.com/votre-carte" target="_blank">designhumainfrance.com/votre-carte</a>)</small>');
-  S.type = await showBtns(['Générateur','Générateur Manifestant','Projecteur','Manifesteur','Réflecteur','Je ne sais pas encore']);
-
-  await botMsg("Et ton <strong>autorité intérieure</strong> ? C'est la façon dont tu prends tes meilleures décisions.");
-  S.autorite = await showBtns(["Sacrale — mon ventre dit oui ou non","Splénique — intuition instantanée","Émotionnelle — j'attends la clarté","Ego / Cœur — ma volonté","Self-projeté — je dois m'entendre parler","Lunaire — j'observe sur 28 jours","Je ne sais pas"]);
-
-  await botMsg("C'est quoi le sujet sur lequel tu pourrais parler <strong>pendant des heures</strong>, même sans être payée ?");
-  S.passion = await showInput("Ex: la nutrition, l'organisation, le bien-être...");
-
-  await botMsg('Intéressant — <strong class="hl">'+S.passion+'</strong>.<br><br>Tu as une expérience personnelle avec ce sujet ? Une transformation vécue toi-même ?');
-  S.experience = await showBtns(["Oui, j'ai vécu quelque chose de fort","Un peu, je m'y intéresse profondément","Non, c'est plutôt une compétence apprise"]);
-
-  await botMsg("À qui tu voudrais apporter de l'aide en priorité ?");
-  S.audience = await showBtns(["Des femmes qui veulent changer de vie","Des entrepreneures / créatrices","Des mamans / familles","Des personnes en recherche de santé","Je ne sais pas encore"]);
-
-  await botMsg("Quand tu penses à <strong>créer du contenu ou vendre</strong>, qu'est-ce qui te pèse le plus ?");
-  S.pese = await showBtns(["Parler en vidéo / me montrer","Écrire régulièrement","Prospecter / aller vers les gens","Rester constante sur la durée","La technique (outils, applis...)"]);
-
-  await botMsg("Combien de temps par semaine tu peux <strong>vraiment</strong> consacrer à ton business ?");
-  S.temps = await showBtns(["Moins d'1h par jour","1 à 2h par jour","3 à 4h par jour","Quasi à temps plein"]);
-
-  await buildFiche();
-}
-
-async function buildFiche(){
-  await botMsg("Parfait 🧭 Je construis ta fiche de vente...", 1000);
-
-  // Petite pause pour que le message soit bien visible
-  await new Promise(r=>setTimeout(r,300));
-
-  const tk  = TYPES[S.type]||'gen';
-  const v   = VENTE[tk];
-  const p   = PLAT[tk];
-  const a   = ACTIONS[tk];
-  const n   = getNiche(S.passion, S.audience);
-  const ang = getAngle(S.experience);
-
-  // Créer la fiche
-  const fiche = document.createElement('div');
-  fiche.className = 'fiche';
-  fiche.innerHTML =
-    '<div class="fh"><div class="fh-t">Fiche de vente — '+S.prenom+'</div><div class="fh-s">'+S.type+' · Monetiz ton TDAH</div></div>'+
-    '<div class="fr"><div class="fl">✦ Ta force</div><div class="ft">'+v.force+'</div></div>'+
-    '<div class="fr"><div class="fl">⚠ Ton frein</div><div class="ft">'+v.frein+'</div></div>'+
-    '<div class="fr"><div class="fl">→ Comment tu vends</div><div class="ft">'+v.comment+'</div><div class="ft" style="margin-top:5px;color:#777;font-size:12px">'+v.prospect+'</div></div>'+
-    '<div class="fr dk"><div class="fl">🎯 Ta niche</div><div class="fbig">'+n+'</div><div class="ft" style="margin-top:5px">'+ang+'</div></div>'+
-    '<div class="fr dk"><div class="fl">📱 Ta plateforme</div><div class="fbig">'+p.nom+'</div><div class="ft" style="margin-top:5px">'+p.why+'</div><div><span class="ftag">'+p.rythme+'</span></div><div class="ft" style="margin-top:5px;color:#777;font-size:12px">'+p.format+'</div></div>'+
-    '<div class="fr"><div class="fact"><div class="fact-l">⚡ Ton action cette semaine</div><div class="fact-t">'+a+'</div></div></div>';
-
-  msgs.appendChild(fiche);
-  scroll();
-
-  // Message final après la fiche
-  await new Promise(r=>setTimeout(r,600));
-  await botMsg("Une plateforme. Une niche. Une action. C'est tout ce dont tu as besoin pour commencer. 🧭", 600);
-
-  // Bouton recommencer
-  await new Promise(r=>setTimeout(r,300));
-  const wrap=document.createElement('div'); wrap.className='btns';
-  const rb=document.createElement('button'); rb.className='btn'; rb.textContent='↺ Recommencer';
-  rb.onclick=()=>{
-    wrap.remove();
-    S={};
-    while(msgs.firstChild) msgs.removeChild(msgs.firstChild);
-    start();
-  };
-  wrap.appendChild(rb); msgs.appendChild(wrap); scroll();
-}
-
-start();
+var M=document.getElementById('msgs');
+var IB=document.getElementById('ibar');
+var INP=document.getElementById('inp');
+var GOB=document.getElementById('gobtn');
+var S={};
+var TCB=null;
+function sc(){M.scrollTop=M.scrollHeight;}
+function addMsg(html,side){var d=document.createElement('div');d.className='bbl '+side;d.innerHTML=html;M.appendChild(d);sc();}
+function showDots(){var w=document.createElement('div');w.id='dotw';w.className='dw';w.innerHTML='<div class="di"><div class="dd"></div><div class="dd"></div><div class="dd"></div></div>';M.appendChild(w);sc();}
+function hideDots(){var d=document.getElementById('dotw');if(d)d.remove();}
+function botMsg(html,delay,cb){showDots();setTimeout(function(){hideDots();addMsg(html,'b');if(cb)cb();},delay||900);}
+function showBtns(list,cb){var wrap=document.createElement('div');wrap.className='btns';list.forEach(function(txt){var b=document.createElement('button');b.className='btn';b.textContent=txt;b.onclick=function(){wrap.querySelectorAll('.btn').forEach(function(x){x.classList.add('done');});addMsg(txt,'u');setTimeout(function(){wrap.remove();cb(txt);},250);};wrap.appendChild(b);});M.appendChild(wrap);sc();}
+function showInput(ph,cb){IB.style.display='block';INP.placeholder=ph||'Écris ta réponse...';INP.value='';INP.focus();TCB=cb;}
+function doSend(){var v=INP.value.trim();if(!v)return;INP.value='';IB.style.display='none';addMsg(v,'u');if(TCB){var c=TCB;TCB=null;setTimeout(function(){c(v);},250);}}
+GOB.onclick=doSend;
+INP.onkeydown=function(e){if(e.key==='Enter')doSend();};
+var TYPES={'Générateur':'gen','Générateur Manifestant':'genman','Projecteur':'proj','Manifesteur':'man','Réflecteur':'ref','Je ne sais pas encore':'gen'};
+var VENTE={gen:{force:'Énergie contagieuse — quand tu parles de ce qui t\'allume, les gens veulent en faire partie.',frein:'Tu dis oui à tout et tu t\'épuises. Chaque OUI non-aligné vide ton énergie.',comment:'Crée du contenu qui répond aux vraies questions de ton audience. Les gens viendront à toi.',prospect:'Pas de prospection froide. Ton contenu authentique suffit.'},genman:{force:'Tu peux initier ET soutenir. Ton énergie de lancement est rare et contagieuse.',frein:'Tu disperses — 5 projets à 20% ne valent jamais 1 projet à 100%.',comment:'Lance par sprints, livre, récupère. Une seule direction à la fois.',prospect:'Tu peux approcher des gens, mais vérifie que c\'est un vrai OUI intérieur avant.'},proj:{force:'Tu lis une situation en quelques minutes. Ce diagnostic rapide est ta vraie valeur.',frein:'Tu t\'épuises à aller vers des gens qui ne t\'ont pas invitée.',comment:'Construis ta réputation par le contenu. Attends d\'être reconnue avant de proposer.',prospect:'Pas de prospection froide. Partenariats et bouche-à-oreille uniquement.'},man:{force:'Vision pionnière — tu vois les opportunités avant tout le monde.',frein:'Tu disparais sans prévenir et les gens se sentent perdus.',comment:'Informe avant d\'agir. Pas besoin de permission — juste communique.',prospect:'Tu peux initier le contact. Informe toujours avant de proposer.'},ref:{force:'Radar exceptionnel — tu sens exactement ce dont les gens ont besoin.',frein:'Tu absorbes l\'énergie des autres. Un mauvais entourage te vide rapidement.',comment:'Prends le temps qu\'il te faut. Jamais de décision sous pression extérieure.',prospect:'Pas de prospection froide. Communautés bienveillantes uniquement.'}};
+var PLAT={gen:{nom:'Instagram',rythme:'3 posts / semaine',format:'Reels face caméra 30-60 sec + stories',why:'Ton énergie passe à l\'écran. Les reels courts et authentiques attirent naturellement.'},genman:{nom:'Instagram',rythme:'3-4 posts / semaine par sprints',format:'Reels de lancement + carrousels',why:'Instagram te permet de lancer fort puis de souffler.'},proj:{nom:'Instagram',rythme:'2 posts / semaine maximum',format:'Posts de fond + newsletter hebdo',why:'Tu n\'as pas besoin de volume. 2 posts forts par semaine valent mieux que 5 posts moyens.'},man:{nom:'Instagram',rythme:'1-2 posts / semaine',format:'Prises de position fortes + vidéos',why:'Tu postes moins souvent mais avec plus d\'impact.'},ref:{nom:'Newsletter + Instagram',rythme:'1 post + 1 email / semaine',format:'Questions ouvertes + réflexions profondes',why:'La newsletter est ton meilleur outil — sans pression d\'algorithme.'}};
+var ACTIONS={gen:'Tourne un reel de 45 secondes où tu réponds à UNE vraie question que tu entends souvent. Pas de script — juste toi, naturelle. Poste-le cette semaine.',genman:'Écris en 3 phrases l\'offre que tu veux lancer. Envoie-la à une personne de confiance — une seule, pas dix.',proj:'Écris un post court sur un moment où tu as vu quelque chose que les autres n\'avaient pas vu. Termine par une question. Zéro vente.',man:'Écris une prise de position courte sur ton sujet — ce que tu crois vraiment, même si ça dérange. Poste-la.',ref:'Pose une question profonde à ton audience sur ton sujet. Écoute ce que les gens répondent.'};
+function getNiche(p,a){var m={'Des femmes qui veulent changer de vie':'femmes qui veulent changer de vie','Des entrepreneures / créatrices':'entrepreneures','Des mamans / familles':'mamans','Des personnes en recherche de santé':'personnes en quête de bien-être','Je ne sais pas encore':'personnes motivées'};return p+' pour les '+(m[a]||'personnes motivées');}
+function getAngle(e){if(e.indexOf('Oui')===0)return 'Ton vécu personnel est ton plus grand atout. Parle depuis ton expérience.';if(e.indexOf('Un peu')===0)return 'Ton intérêt profond se voit. Partage ce que tu apprends en temps réel.';return 'Ta compétence acquise est solide. Montre les résultats concrets.';}
+function step0(){botMsg("Bonjour 👋 Je suis l'agent de Monetiz ton TDAH.<br><br>Je vais t'aider à trouver <strong>comment vendre sans t'épuiser</strong>.<br><br>Dis-moi ton prénom.",1200,function(){showInput('Ton prénom...',function(v){S.prenom=v;step1();});});}
+function step1(){botMsg('Bonjour <strong class="hl">'+S.prenom+'</strong> ! 🧭<br><br>Quel est ton <strong>type Human Design</strong> ?<br><small style="color:#666">(Gratuit sur <a href="https://designhumainfrance.com/votre-carte" target="_blank">designhumainfrance.com</a>)</small>',900,function(){showBtns(['Générateur','Générateur Manifestant','Projecteur','Manifesteur','Réflecteur','Je ne sais pas encore'],function(v){S.type=v;step2();});});}
+function step2(){botMsg("Et ton <strong>autorité intérieure</strong> ?",900,function(){showBtns(["Sacrale — mon ventre dit oui ou non","Splénique — intuition instantanée","Émotionnelle — j'attends la clarté","Ego / Cœur — ma volonté","Self-projeté — je dois m'entendre parler","Lunaire — j'observe sur 28 jours","Je ne sais pas"],function(v){S.autorite=v;step3();});});}
+function step3(){botMsg("C'est quoi le sujet sur lequel tu pourrais parler <strong>pendant des heures</strong>, même sans être payée ?",900,function(){showInput("Ex: nutrition, organisation, bien-être...",function(v){S.passion=v;step4();});});}
+function step4(){botMsg('Intéressant — <strong class="hl">'+S.passion+'</strong>.<br><br>Tu as une expérience personnelle avec ce sujet ?',900,function(){showBtns(["Oui, j'ai vécu quelque chose de fort","Un peu, je m'y intéresse profondément","Non, c'est plutôt une compétence apprise"],function(v){S.experience=v;step5();});});}
+function step5(){botMsg("À qui tu voudrais apporter de l'aide ?",900,function(){showBtns(["Des femmes qui veulent changer de vie","Des entrepreneures / créatrices","Des mamans / familles","Des personnes en recherche de santé","Je ne sais pas encore"],function(v){S.audience=v;step6();});});}
+function step6(){botMsg("Qu'est-ce qui te pèse le plus quand tu penses à <strong>vendre</strong> ?",900,function(){showBtns(["Parler en vidéo / me montrer","Écrire régulièrement","Prospecter / aller vers les gens","Rester constante sur la durée","La technique"],function(v){S.pese=v;step7();});});}
+function step7(){botMsg("Combien de temps par semaine tu peux <strong>vraiment</strong> consacrer à ton business ?",900,function(){showBtns(["Moins d'1h par jour","1 à 2h par jour","3 à 4h par jour","Quasi à temps plein"],function(v){S.temps=v;stepFiche();});});}
+function stepFiche(){botMsg("Parfait 🧭 Je construis ta fiche...",800,function(){setTimeout(function(){var tk=TYPES[S.type]||'gen';var v=VENTE[tk];var p=PLAT[tk];var a=ACTIONS[tk];var n=getNiche(S.passion,S.audience);var ang=getAngle(S.experience);var f=document.createElement('div');f.className='fiche';f.innerHTML='<div class="fh"><div class="fh-t">Fiche — '+S.prenom+'</div><div class="fh-s">'+S.type+' · Monetiz ton TDAH</div></div><div class="fr"><div class="fl">✦ Ta force</div><div class="ft">'+v.force+'</div></div><div class="fr"><div class="fl">⚠ Ton frein</div><div class="ft">'+v.frein+'</div></div><div class="fr"><div class="fl">→ Comment tu vends</div><div class="ft">'+v.comment+'</div></div><div class="fr dk"><div class="fl">🎯 Ta niche</div><div class="fbig">'+n+'</div><div class="ft" style="margin-top:5px">'+ang+'</div></div><div class="fr dk"><div class="fl">📱 Ta plateforme</div><div class="fbig">'+p.nom+'</div><div class="ft" style="margin-top:5px">'+p.why+'</div><span class="ftag">'+p.rythme+'</span></div><div class="fr"><div class="fact"><div class="fact-l">⚡ Action cette semaine</div><div class="fact-t">'+a+'</div></div></div>';M.appendChild(f);sc();setTimeout(function(){addMsg("Une plateforme. Une niche. Une action. 🧭",'b');setTimeout(function(){var w=document.createElement('div');w.className='btns';var r=document.createElement('button');r.className='btn';r.textContent='↺ Recommencer';r.onclick=function(){w.remove();S={};while(M.firstChild)M.removeChild(M.firstChild);step0();};w.appendChild(r);M.appendChild(w);sc();},400);},600);},400);});}
+step0();
 </script>
 </body>
 </html>
+```
